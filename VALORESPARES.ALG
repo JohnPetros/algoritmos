@@ -1,0 +1,18 @@
+Algoritmo "valorespares"
+
+Var
+   CONT, V: Inteiro
+
+
+Inicio
+   Escreva("Digite um valor: ")
+   Leia(V)
+   Se (V%2=1) entao
+      V <- V - 1
+   Fimse
+   Para CONT <- V ate 0 passo -2 faca
+      EscrevaL(CONT)
+   FimPara
+
+
+Fimalgoritmo
